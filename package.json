@@ -8,11 +8,13 @@
     "@emotion/styled": "^11.6.0",
     "@mui/icons-material": "^5.4.1",
     "@mui/material": "^5.4.1",
+    "@openzeppelin/contracts": "^4.4.1",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
     "axios": "^0.21.1",
     "deepai": "^1.0.21",
+    "openzeppelin-solidity": "^2.2.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
@@ -43,6 +45,9 @@
     ]
   },
   "devDependencies": {
-    "dotenv": "^8.6.0"
+    "@nomiclabs/hardhat-ethers": "^2.0.5",
+    "dotenv": "^8.6.0",
+    "ethers": "^5.5.4",
+    "hardhat": "^2.8.4"
   }
 }
